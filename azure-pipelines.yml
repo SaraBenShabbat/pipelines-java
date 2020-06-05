@@ -22,5 +22,5 @@ steps:
     goals: 'package'
 - script: |
     echo Starting the build
-    mvn package
+    mvn clean package
   displayName: 'Build with Maven'
